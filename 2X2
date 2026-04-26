@@ -1,0 +1,10 @@
+echo "enter 4 elements of first matrix: "
+for i in {0..3};do read a[i]; done
+
+echo "enter 4 elements of second matrix: "
+for j in {0..3}; do read b[j]; done
+echo "Sum: "
+for i in {0..3}; do
+echo -n "$((a[i] + b[i])) "
+(( (i+1)%2==0 )) && echo
+done
