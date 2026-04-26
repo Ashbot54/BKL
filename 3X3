@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "Enter 9 elements of first matrix:"
+for i in {0..8}; do read a[i]; done
+
+echo "Enter 9 elements of second matrix:"
+for i in {0..8}; do read b[i]; done
+
+echo "Sum:"
+for i in {0..8}; do
+ echo -n "$((a[i]+b[i])) "
+ (( (i+1)%3==0 )) && echo
+done
