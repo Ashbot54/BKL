@@ -1,0 +1,12 @@
+sudo su
+sudo apt update
+sudo apt install git
+git clone https://github.com/Ashbot54/BKL.git
+git clone https://github.com/ayushnb281004-ui/bbg.git
+git clone https://github.com/JodKarthik/mkc.git
+git clone https://github.com/neeraj860/Neeraj.git
+
+ls
+cd BKL
+ls
+cat factorial
